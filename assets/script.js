@@ -60,5 +60,7 @@ arrowLeft.addEventListener('click', (e) => {
 	tagLine.innerHTML = slides[current_dot].tagLine;
 });
 
-
+window.addEventListener('scroll', (e) => {
+	console.log(window.scrollY)
+});
 
